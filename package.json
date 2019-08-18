@@ -8,6 +8,8 @@
     "build": "parcel build src/pages/index.html src/pages/**/index.html --no-source-maps"
   },
   "dependencies": {
+    "@swup/gia-plugin": "^1.0.1",
+    "gia": "^1.0.1",
     "swup": "^2.0.5"
   },
   "devDependencies": {

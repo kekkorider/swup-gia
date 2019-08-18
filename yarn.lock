@@ -765,6 +765,19 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
+"@swup/gia-plugin@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@swup/gia-plugin/-/gia-plugin-1.0.1.tgz#b42010157036d75754a2c1313a903eaa3bea6555"
+  integrity sha512-GoZk7r6pTHGhfIapw/KgLQfF8zvzSL2srvOmJ63kxXJncbaBH8t4bUZkm0C+YO3NLvYcXV/NM6U4r49G+D2+uQ==
+  dependencies:
+    "@swup/plugin" "^1.0.1"
+    gia "^1.0.1"
+
+"@swup/plugin@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@swup/plugin/-/plugin-1.0.1.tgz#10606322508724a5beaed6a09326d8c30c7041fa"
+  integrity sha512-QrTGn1DLx+50CNsk6oGzUFnyNyLkDK6iLb032qKImmAXS+0Dd1cwa8cSGvJ+I27J4qR8y6oJNurgHIEc6ZCTrg==
+
 "@types/q@^1.5.1":
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
@@ -970,6 +983,11 @@ babel-plugin-dynamic-import-node@^2.3.0:
   integrity sha512-o6qFkpeQEBxcqt0XYlWzAVxNCSCZdUgcR8IRlhD/8DylxjjO4foPcvTW0GGKa/cVt3rvxZ7o5ippJ+/0nvLhlQ==
   dependencies:
     object.assign "^4.1.0"
+
+babel-regenerator-runtime@^6.5.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/babel-regenerator-runtime/-/babel-regenerator-runtime-6.5.0.tgz#0e41cd1c9f80442466f015c749fff8ba98f8e110"
+  integrity sha1-DkHNHJ+ARCRm8BXHSf/4upj44RA=
 
 babel-runtime@^6.11.6, babel-runtime@^6.26.0:
   version "6.26.0"
@@ -2300,6 +2318,13 @@ getpass@^0.1.1:
   integrity sha1-Xv+OPmhNVprkyysSgmBOi6YhSfo=
   dependencies:
     assert-plus "^1.0.0"
+
+gia@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gia/-/gia-1.0.1.tgz#09bc08b6f37b9e25a55d41fe3118402c3d58c2f6"
+  integrity sha512-xhw0xByL4gbdLKXhUo17mxk7ewH6mijp2FesZ2PAU7ULRdOHq6PWh4FSsbRq12HIKD3Mr1mgpdv0dp2qnZlTfQ==
+  dependencies:
+    babel-regenerator-runtime "^6.5.0"
 
 glob-parent@^3.1.0:
   version "3.1.0"
