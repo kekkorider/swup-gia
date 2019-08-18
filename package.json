@@ -1,0 +1,13 @@
+{
+  "name": "swup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rm -rf dist && parcel src/pages/index.html src/pages/**/index.html",
+    "build": "parcel src/pages/index.html src/pages/**/index.html --no-source-maps"
+  },
+  "dependencies": {
+    "swup": "^2.0.5"
+  }
+}
